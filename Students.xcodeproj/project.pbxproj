@@ -11,6 +11,10 @@
 		9DA8C6BB280DA3B200682793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8C6BA280DA3B200682793 /* ContentView.swift */; };
 		9DA8C6BD280DA3B300682793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8C6BC280DA3B300682793 /* Assets.xcassets */; };
 		9DA8C6C0280DA3B300682793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8C6BF280DA3B300682793 /* Preview Assets.xcassets */; };
+		9DA8C6C7280DA3EC00682793 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8C6C6280DA3EC00682793 /* Student.swift */; };
+		9DA8C6C9280DA82500682793 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8C6C8280DA82500682793 /* StudentCell.swift */; };
+		9DA8C6CB280DAB9300682793 /* UIImage+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8C6CA280DAB9300682793 /* UIImage+Utilities.swift */; };
+		9DA8C6CD280DAC8C00682793 /* StudentImages in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8C6CC280DAC8C00682793 /* StudentImages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		9DA8C6BA280DA3B200682793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DA8C6BC280DA3B300682793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA8C6BF280DA3B300682793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DA8C6C6280DA3EC00682793 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9DA8C6C8280DA82500682793 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		9DA8C6CA280DAB9300682793 /* UIImage+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utilities.swift"; sourceTree = "<group>"; };
+		9DA8C6CC280DAC8C00682793 /* StudentImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StudentImages; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				9DA8C6BA280DA3B200682793 /* ContentView.swift */,
 				9DA8C6BC280DA3B300682793 /* Assets.xcassets */,
 				9DA8C6BE280DA3B300682793 /* Preview Content */,
+				9DA8C6C6280DA3EC00682793 /* Student.swift */,
+				9DA8C6C8280DA82500682793 /* StudentCell.swift */,
+				9DA8C6CA280DAB9300682793 /* UIImage+Utilities.swift */,
+				9DA8C6CC280DAC8C00682793 /* StudentImages */,
 			);
 			path = Students;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA8C6C0280DA3B300682793 /* Preview Assets.xcassets in Resources */,
+				9DA8C6CD280DAC8C00682793 /* StudentImages in Resources */,
 				9DA8C6BD280DA3B300682793 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA8C6BB280DA3B200682793 /* ContentView.swift in Sources */,
+				9DA8C6C7280DA3EC00682793 /* Student.swift in Sources */,
 				9DA8C6B9280DA3B200682793 /* StudentsApp.swift in Sources */,
+				9DA8C6CB280DAB9300682793 /* UIImage+Utilities.swift in Sources */,
+				9DA8C6C9280DA82500682793 /* StudentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

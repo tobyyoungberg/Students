@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    let students: [Student]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
+        return ForEach(students, id: \.self) { student in
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    StudentCell(student: student)
+                        .frame(width: 150, height: 150)
+                }
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(students: Student.allStudents)
     }
 }
