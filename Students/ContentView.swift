@@ -11,9 +11,9 @@ struct ContentView: View {
     let students: [Student]
     var body: some View {
         let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
-        return ForEach(students, id: \.self) { student in
-            ScrollView {
-                LazyVGrid(columns: columns) {
+        ScrollView {
+            LazyVGrid(columns: columns) {
+                ForEach(students, id: \.self) { student in
                     StudentCell(student: student)
                         .frame(width: 150, height: 150)
                 }
